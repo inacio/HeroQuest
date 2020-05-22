@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="deverdecasa2.0.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="hero">
+    <div class="left">
+    <img src="images/guerreiro.png" alt="" width="300px" height="260px">
+    <h1 id="vidaJ"></h1></div>
+    <div class="right">
+    <img src="images/orc.png" alt="" width="300px" height="260px">
+    <h1 id="vidaM"></h1></div>
+    </div>
+    <div class="buttons">
+    <button onclick="console.clear();jogador.atacar(monstro); ataqueInimigo()">Atacar</button>
+    <button onclick="console.clear();jogador.cure(jogador); ataqueInimigo()">Cura</button>
+    <button onclick="sleep()">Dormir</button>
+</div>
+    <p id=estatus></p>
+    <p id=estatus></p>
+    
+</body>
+</html>
